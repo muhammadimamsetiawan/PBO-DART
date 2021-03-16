@@ -16,10 +16,10 @@ String say2(String from, String message, [String to, String appName]) {
       ((appName != null) ? " via " + appName : "");
 }
 
-//firsth class object
+///firsth class object
 double luas_segiempat(double panjang, double lebar) => panjang * lebar;
 
-//Anonymous Function
+///Anonymous Function
 int doMathOperator(int number1, int number2, Function operator) {
   return operator(number1, number2);
 }
